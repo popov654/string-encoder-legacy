@@ -90,11 +90,15 @@ class Encode {
 	 *
 	 * @return string
 	 */
-	public  function convert($str)
+	public function convert($str)
 	{
 		if ($this->from != $this->to)
 		{
 			$str = iconv($this->from, $this->to, $str);
+		}
+
+		if ($str === null) {
+			return $str;
 		}
 
 		if ($str === false)
