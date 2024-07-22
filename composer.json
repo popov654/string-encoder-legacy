@@ -1,10 +1,10 @@
 {
-    "name": "paquettg/string-encode",
+    "name": "popov654/string-encoder",
     "type": "library",
     "description": "Facilitating the process of altering string encoding in PHP.",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "keywords": ["encoding", "charset", "string"],
-    "homepage": "https://github.com/paquettg/string-encoder",
+    "homepage": "https://github.com/popov654/string-encoder",
     "license": "MIT",
     "authors": [
         {
@@ -21,8 +21,8 @@
     },
     "autoload": {
         "psr-0": { 
-        	"stringEncode": "src/"
-       	}
+           "stringEncode": "src/"
+        }
     },
     "minimum-stability": "dev"
 }
